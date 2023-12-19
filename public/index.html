@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer type="module" src="scripts/index.js"></script>
+</head>
+<body class="m-0">
+    <main class="w-screen p-6 mx-auto bg-slate-800 min-h-screen">
+        <h1 class="text-4xl font-bold text-center text-indigo-200">Pokemon Gallery</h1>
+        <section id="pokemon-container" class="w-5/6 my-8 mx-auto">
+            <article class="cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 p-2 rounded-md shadow-xl">
+                <img class="my-0 mx-auto" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+                <h3 class="text-center text-lg font-medium text-gray-200">Bulbasaur</h3>
+            </article>
+        </section>
+        <section id="pages" class="w-full flex justify-end">
+            <button id="previous" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-l">
+                Previous
+            </button>
+            <button id="next" class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-r">
+                Next
+            </button>
+        </section>
+    </main>
+</body>
+</html>
